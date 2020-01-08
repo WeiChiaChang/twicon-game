@@ -1,10 +1,7 @@
 <template>
   <div>
     <p>
-      <md-button to="/infinite" class="md-raised md-accent">
-        <img src="../assets/icons/infinity.svg">
-        Infinite
-      </md-button>
+      <md-button to="/game" class="md-raised md-accent">GO！</md-button>
     </p>
   </div>
 </template>

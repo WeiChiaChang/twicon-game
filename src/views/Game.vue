@@ -47,20 +47,20 @@ export default {
   // Computed
   computed: {
     ...mapState({
-      currentFlag: ({currentFlag}) => currentFlag,
-      currentOptions: ({currentOptions}) => currentOptions,
-      justGuessed: ({justGuessed}) => justGuessed,
-      currentGuess: ({currentGuess}) => currentGuess,
-    })
+      currentFlag: ({ currentFlag }) => currentFlag,
+      currentOptions: ({ currentOptions }) => currentOptions,
+      justGuessed: ({ justGuessed }) => justGuessed,
+      currentGuess: ({ currentGuess }) => currentGuess,
+    }),
   },
 };
 
 </script>
 
 <style lang="scss" scoped>
-  .score-container,
-  .flag-container,
-  .buttons-container{
-    margin-bottom: 30px;
-  }
+.score-container,
+.flag-container,
+.buttons-container {
+  margin-bottom: 30px;
+}
 </style>

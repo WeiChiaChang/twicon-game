@@ -1,7 +1,7 @@
 <template>
   <div class="container">
-    <img src="../assets/logos/logo.svg" alt="Flag Quiz">
-    <h1 class="md-display-2">Icon Quiz</h1>
+    <img src="../assets/logos/logo.svg" alt="TW Icon Game">
+    <h1 class="md-display-2">快來認識台灣吧！</h1>
     <select-game-type></select-game-type>
   </div>
 </template>

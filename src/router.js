@@ -14,14 +14,9 @@ export default new Router({
       component: Home,
     },
     {
-      path: '/infinite',
-      name: 'infinite',
-      component: () => import(/* webpackChunkName: "game-infinite" */ './views/GameInfinite.vue'),
-    },
-    {
-      path: '/timed',
-      name: 'timed',
-      component: () => import(/* webpackChunkName: "game-timed" */ './views/GameTimed.vue'),
+      path: '/game',
+      name: 'game',
+      component: () => import(/* webpackChunkName: "game" */ './views/Game.vue'),
     },
   ],
 });

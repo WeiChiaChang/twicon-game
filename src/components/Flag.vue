@@ -39,7 +39,7 @@ export default {
   justify-content: center;
   align-items: center;
   i {
-    font-size: 8rem;
+    font-size: 12rem;
   }
 }
 </style>

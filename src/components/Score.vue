@@ -39,15 +39,15 @@ export default {
 </script>
 
 <style lang="scss">
-  .md-table-head-container{
-    text-align: center;
-    height: auto;
-    padding: 0;
-  }
-  .md-table-head-label{
-    height: 20px !important;
-    line-height: 20px !important;
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-  }
+.md-table-head-container {
+  text-align: center;
+  height: auto;
+  padding: 0;
+}
+.md-table-head-label {
+  height: 20px !important;
+  line-height: 20px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
 </style>

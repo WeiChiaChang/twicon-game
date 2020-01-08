@@ -1,12 +1,17 @@
 
-# Flag Quiz
+# TW Icon Fonts game
 
-> Small little flag guessing game made with Vue.js
+> 一個透過圖示認識臺灣的簡單小遊戲
 
-[Play now!](https://flag-quiz.now.sh)
+[快來玩玩吧！]()
 
-![Flag Quiz](https://i.imgur.com/xtbqPyj.png?v=1) ![Flag Quiz](https://i.imgur.com/GU7MmRI.png?v=1)
+![TW Icon Fonts Game](https://upload.cc/i1/2020/01/08/0cUoMq.png)
 
+
+## Reference
+
+- 本專案是從 [此份 Repo](https://github.com/Naahuel/flags-game) Fork 改寫而成
+- [TW Icon Fonts](https://www.twicon.page/index.html) - Free icons of Taiwan
 
 ## Project setup for development
 ```

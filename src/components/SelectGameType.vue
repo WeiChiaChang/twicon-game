@@ -1,8 +1,6 @@
 <template>
   <div>
-    <p>
-      <md-button to="/game" class="md-raised md-accent">GO！</md-button>
-    </p>
+    <md-button to="/game" class="wording md-raised md-accent">快來測驗看看吧！</md-button>
   </div>
 </template>
 
@@ -14,14 +12,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .md-button{
-    display: block;
-    width: 100%;
-    height: 50px;
-    margin: 0;
-    img{
-      display: inline-block;
-      max-width: 30px;
-    }
-  }
+div {
+  margin: 1.6rem;
+}
+.wording {
+  font-size: 1.2rem;
+  background: #2ab6fb !important;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  padding: 0 16px;
+  height: 56px;
+}
 </style>

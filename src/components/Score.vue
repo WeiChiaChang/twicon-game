@@ -1,10 +1,10 @@
 <template>
   <md-table>
     <md-table-row>
-      <md-table-head md-numeric>Total</md-table-head>
-      <md-table-head md-numeric>Right</md-table-head>
-      <md-table-head md-numeric>Wrong</md-table-head>
-      <md-table-head md-numeric>Ratio</md-table-head>
+      <md-table-head md-numeric>目前累積題數</md-table-head>
+      <md-table-head md-numeric>正確題數</md-table-head>
+      <md-table-head md-numeric>錯誤題數</md-table-head>
+      <md-table-head md-numeric>答對率</md-table-head>
     </md-table-row>
     <md-table-row>
       <md-table-head md-numeric>{{score.total}}</md-table-head>
@@ -49,5 +49,12 @@ export default {
   line-height: 20px !important;
   padding-left: 10px !important;
   padding-right: 10px !important;
+}
+.md-table-head {
+  font-size: 1.2rem;
+  font-family: monospace;
+}
+.md-table-content {
+  background: transparent !important;
 }
 </style>

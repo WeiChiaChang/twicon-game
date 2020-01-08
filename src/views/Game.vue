@@ -63,4 +63,8 @@ export default {
 .buttons-container {
   margin-bottom: 30px;
 }
+
+.score-container {
+  background: transparent !important;
+}
 </style>

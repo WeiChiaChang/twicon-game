@@ -43,7 +43,7 @@ export default {
   height: 50px;
   margin: 0;
   margin-bottom: 10px;
-  border: 2px solid #cecece;
+  border: 2px solid #3e3e3e;
 }
 .correct {
   background-color: #239e23 !important;
@@ -53,7 +53,11 @@ export default {
   background-color: #c21a1a !important;
   color: white !important;
 }
+.buttons-container {
+  background: transparent !important;
+}
 .btn_wording {
   font-size: 1.2rem;
+  background: wheat;
 }
 </style>

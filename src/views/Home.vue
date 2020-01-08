@@ -1,7 +1,7 @@
 <template>
   <div class="container">
-    <img src="../assets/logos/logo.svg" alt="TW Icon Game">
-    <h1 class="md-display-2">快來認識台灣吧！</h1>
+    <img src="https://www.twicon.page/imgs/about_version.png" alt="TW Icon Game">
+    <h1 class="md-display-6">The 100 icons of Taiwan</h1>
     <select-game-type></select-game-type>
   </div>
 </template>
@@ -24,9 +24,10 @@ export default {
 <style scoped>
   .container{
     text-align: center;
+    background: #D9F2E7;
   }
-  img{
+  img {
     display: inline-block;
-    max-width: 50%;
+    max-width: 72%;
   }
 </style>

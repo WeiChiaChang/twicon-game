@@ -84,11 +84,11 @@ export default [
     code: 'twicon-nt-mus',
   },
   {
-    name: '圓山大飯',
+    name: '圓山大飯店',
     code: 'twicon-grand-hotel',
   },
   {
-    name: 'ニニ八平和公園',
+    name: 'ニニ八和平公園',
     code: 'twicon-228-park',
   },
   {
@@ -180,7 +180,7 @@ export default [
     code: 'twicon-ntc-theater',
   },
   {
-    name: '八卦山大仏',
+    name: '八卦山大佛',
     code: 'twicon-bagua',
   },
   {

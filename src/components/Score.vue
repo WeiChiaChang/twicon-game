@@ -1,7 +1,7 @@
 <template>
   <md-table>
     <md-table-row>
-      <md-table-head md-numeric>目前累積題數</md-table-head>
+      <md-table-head md-numeric>累積題數</md-table-head>
       <md-table-head md-numeric>正確題數</md-table-head>
       <md-table-head md-numeric>錯誤題數</md-table-head>
       <md-table-head md-numeric>答對率</md-table-head>
@@ -29,7 +29,7 @@ export default {
       if (this.score.total > 0) {
         return (100 * this.score.success / this.score.total).toFixed(2);
       }
-      return '-';
+      return '0.00';
     },
     ...mapState({
       score: ({ score }) => score,

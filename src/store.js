@@ -75,7 +75,7 @@ export default new Vuex.Store({
     },
     [GET_RANDOM_FLAG](state) {
       const randomFlagIndex = Math.floor(Math.random() * (state.flags.length - 1));
-      state.currentFlagIndex = randomFlagIndex
+      state.currentFlagIndex = randomFlagIndex;
       state.currentFlag = state.flags[randomFlagIndex];
       state.currentGuess = '';
       state.justGuessed = false;
@@ -108,7 +108,7 @@ export default new Vuex.Store({
       state.justGuessed = true;
       
       // Remove flag
-      state.flags.splice(state.currentFlagIndex, 1)
+      state.flags.splice(state.currentFlagIndex, 1);
     },
     [SET_GAME_MODE](state, mode) {
       // Increase total

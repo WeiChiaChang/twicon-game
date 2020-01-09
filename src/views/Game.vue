@@ -1,7 +1,7 @@
 <template>
   <div>
     <transition mode="out-in">
-      <failed v-if="score.failed > 0" />
+      <failed :test="test" v-if="score.failed > 0" />
     </transition>
     <score class="score-container" v-if="score.failed === 0" />
     <flag class="flag-container" :code="currentFlag.code" v-if="score.failed === 0" />
@@ -13,6 +13,7 @@
       :current-guess="currentGuess"
       :just-guessed="justGuessed"
       v-on:guess="guessFlag"
+      @click.native="failedIcon(currentFlag)"
     />
   </div>
 </template>
@@ -27,6 +28,12 @@ import Failed from '@/components/Failed.vue';
 export default {
   // Component name
   name: 'GameInfinite',
+
+  data () {
+    return {
+      test: {}
+    }
+  },
 
   mounted() {
     // Set the game mode
@@ -48,6 +55,9 @@ export default {
   // Methods
   methods: {
     ...mapActions(['guessFlag', 'setGameMode', 'getRandomFlag', 'getRandomOptions']),
+    failedIcon (icon) {
+      this.test = icon
+    }
   },
 
   // Computed

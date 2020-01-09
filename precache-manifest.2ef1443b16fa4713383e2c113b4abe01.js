@@ -36,12 +36,12 @@ self.__precacheManifest = [
     "url": "browserconfig.xml"
   },
   {
-    "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
-    "url": "robots.txt"
-  },
-  {
     "revision": "9f5f8e4cd36ac13901ae15dde763ae9c",
     "url": "site.webmanifest"
+  },
+  {
+    "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
+    "url": "robots.txt"
   },
   {
     "revision": "df224f54e21e6d07e8b6db8549042a38",

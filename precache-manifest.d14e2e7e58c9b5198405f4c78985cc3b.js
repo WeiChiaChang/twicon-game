@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "596c1e570bb788381631",
+    "revision": "5641308eec7190558f44",
     "url": "css/app.7cd1a668.css"
   },
   {
-    "revision": "596c1e570bb788381631",
-    "url": "js/app.a960c70a.js"
+    "revision": "5641308eec7190558f44",
+    "url": "js/app.3b801682.js"
   },
   {
     "revision": "ac3fc66ea264a892e9e9",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "img/kumamon.de3002f6.png"
   },
   {
-    "revision": "f5e05b025f5145ee60733e1648f7defe",
+    "revision": "5ee249653a81c74c72c66c40393c8cbd",
     "url": "index.html"
   },
   {

@@ -1,8 +1,12 @@
 <template>
   <div>
-    <score class="score-container" />
-    <flag class="flag-container" :code="currentFlag.code" />
+    <!-- <score class="score-container" /> -->
+    <transition mode="out-in">
+      <failed v-if="score.failed > 0" />
+    </transition>
+    <flag class="flag-container" :code="currentFlag.code" v-if="score.failed === 0" />
     <guessing-buttons
+      v-if="score.failed === 0"
       class="buttons-container"
       :flags="currentOptions"
       :correct-flag="currentFlag"
@@ -17,7 +21,7 @@
 import { mapActions, mapState } from 'vuex';
 import Flag from '@/components/Flag.vue';
 import GuessingButtons from '@/components/GuessingButtons.vue';
-import Score from '@/components/Score.vue';
+import Failed from '@/components/Failed.vue';
 
 export default {
   // Component name
@@ -36,7 +40,7 @@ export default {
   components: {
     Flag,
     GuessingButtons,
-    Score,
+    Failed,
   },
 
   // Methods
@@ -51,6 +55,7 @@ export default {
       currentOptions: ({ currentOptions }) => currentOptions,
       justGuessed: ({ justGuessed }) => justGuessed,
       currentGuess: ({ currentGuess }) => currentGuess,
+      score: ({ score }) => score,
     }),
   },
 };
@@ -67,4 +72,11 @@ export default {
 .score-container {
   background: transparent !important;
 }
+
+.v-leave { opacity: 1; }
+.v-leave-active { transition: opacity .5s }
+.v-leave-to { opacity: 0; }
+.v-enter { opacity: 0; }
+.v-enter-active  { transition: opacity .5s }
+.v-enter-to { opacity: 1; }
 </style>

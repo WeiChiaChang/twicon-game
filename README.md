@@ -3,7 +3,7 @@
 
 > 一個透過圖示認識臺灣的簡單小遊戲
 
-[快來玩玩吧！]()
+[快來玩玩吧！](https://git.io/JvvfT)
 
 ![TW Icon Fonts Game](https://upload.cc/i1/2020/01/08/0cUoMq.png)
 

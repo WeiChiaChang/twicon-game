@@ -1,6 +1,10 @@
 <template>
   <div class="wrapper">
-    <div class="slogan">已經是 .... 極限了嗎？</div>
+    <div class="slogan">
+      <span v-if="0 <= score.success && score.success <= 10">{{slogan.low}}</span>
+      <span v-if="10 < score.success && score.success <= 20">{{slogan.medium}}</span>
+      <span v-if="20 < score.success">{{slogan.high}}</span>
+    </div>
     <p class="score_wording">{{score.success}} / {{flags.length}}</p>
     <md-button to="/" class="restart_btn">Restart</md-button>
     <img src="../assets/kumamon.png" alt="">
@@ -12,6 +16,15 @@ import { mapState } from 'vuex';
 
 export default {
   name: 'Failed',
+  data () {
+    return {
+      slogan: {
+        low: '已經是 .... 極限了嗎？',
+        medium: '兄 day 加油好嗎？',
+        high: '當台灣人還是很不錯的對吧'
+      }
+    }
+  },
   computed: {
     ...mapState({
       score: ({ score }) => score,

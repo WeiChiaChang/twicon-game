@@ -1,9 +1,9 @@
 <template>
   <div>
-    <!-- <score class="score-container" /> -->
     <transition mode="out-in">
       <failed v-if="score.failed > 0" />
     </transition>
+    <score class="score-container" v-if="score.failed === 0" />
     <flag class="flag-container" :code="currentFlag.code" v-if="score.failed === 0" />
     <guessing-buttons
       v-if="score.failed === 0"
@@ -21,6 +21,7 @@
 import { mapActions, mapState } from 'vuex';
 import Flag from '@/components/Flag.vue';
 import GuessingButtons from '@/components/GuessingButtons.vue';
+import Score from '@/components/Score.vue'
 import Failed from '@/components/Failed.vue';
 
 export default {
@@ -40,6 +41,7 @@ export default {
   components: {
     Flag,
     GuessingButtons,
+    Score,
     Failed,
   },
 

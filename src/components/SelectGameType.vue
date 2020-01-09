@@ -1,13 +1,27 @@
 <template>
   <div>
-    <md-button to="/game" class="wording md-raised md-accent">快來測驗看看吧！</md-button>
+    <md-button @click.native="restart()" to="/game" class="wording md-raised md-accent">來個小測驗吧！</md-button>
   </div>
 </template>
 
 <script>
+import { mapActions } from 'vuex';
+
 export default {
   // Component name
   name: 'SelectGameType',
+  methods: {
+    ...mapActions(['guessFlag', 'setGameMode', 'getRandomFlag', 'getRandomOptions', 'setScoreInitial']),
+    restart () {
+      this.setScoreInitial();
+      // Set the game mode
+      this.setGameMode('infinite');
+      // Get a random flag
+      this.getRandomFlag();
+      // Get options
+      this.getRandomOptions();
+    }
+  }
 };
 </script>
 

@@ -9,14 +9,13 @@ import {
   SET_GAME_MODE,
   GET_RANDOM_FLAG,
   GET_GUESSING_OPTIONS,
+  RESET_STATE_DATA
 } from './mutation-constants';
 
 Vue.use(Vuex);
 
-export default new Vuex.Store({
-
-  // Root state
-  state: {
+function initialState () {
+  return {
     flags,
     score: {
       total: 0,
@@ -28,10 +27,19 @@ export default new Vuex.Store({
     currentOptions: [],
     justGuessed: false,
     currentGuess: '',
-  },
+  }
+}
+
+export default new Vuex.Store({
+
+  // Root state
+  state: initialState,
 
   // Actions
   actions: {
+    setScoreInitial({ commit }) {
+      commit(RESET_STATE_DATA);
+    },
     // Set the game mode
     setGameMode({ commit }, mode) {
       commit(SET_GAME_MODE, mode);
@@ -56,6 +64,13 @@ export default new Vuex.Store({
 
   // Mutations
   mutations: {
+    [RESET_STATE_DATA](state) {
+      const s = initialState()
+
+      Object.keys(s).forEach(key => {
+        state[key] = s[key]
+      })
+    },
     [GET_RANDOM_FLAG](state) {
       const randomFlagIndex = Math.floor(Math.random() * (state.flags.length - 1));
       state.currentFlag = state.flags[randomFlagIndex];

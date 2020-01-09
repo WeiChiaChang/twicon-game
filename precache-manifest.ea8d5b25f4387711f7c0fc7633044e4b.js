@@ -1,34 +1,34 @@
 self.__precacheManifest = [
   {
-    "revision": "f2530efdd05c43cdf958",
-    "url": "css/app.a83c05ee.css"
+    "revision": "596c1e570bb788381631",
+    "url": "css/app.7cd1a668.css"
   },
   {
-    "revision": "f2530efdd05c43cdf958",
-    "url": "js/app.9ab38fe4.js"
+    "revision": "596c1e570bb788381631",
+    "url": "js/app.a960c70a.js"
   },
   {
-    "revision": "99af388e1f171f34fb18",
+    "revision": "ac3fc66ea264a892e9e9",
     "url": "css/chunk-vendors.04112af6.css"
   },
   {
-    "revision": "99af388e1f171f34fb18",
-    "url": "js/chunk-vendors.e3d5dfd2.js"
+    "revision": "ac3fc66ea264a892e9e9",
+    "url": "js/chunk-vendors.728bb77c.js"
   },
   {
-    "revision": "b838e72fa5f735238fb6",
-    "url": "css/game.72d5657b.css"
+    "revision": "79345abceef1f8e2ab59",
+    "url": "css/game.0e7f0fb5.css"
   },
   {
-    "revision": "b838e72fa5f735238fb6",
-    "url": "js/game.60ee3019.js"
+    "revision": "79345abceef1f8e2ab59",
+    "url": "js/game.460fda49.js"
   },
   {
     "revision": "de3002f65fb439dd075fe5852d6d555b",
     "url": "img/kumamon.de3002f6.png"
   },
   {
-    "revision": "e4c2fe4843b1b04fb179d06a02e44383",
+    "revision": "f5e05b025f5145ee60733e1648f7defe",
     "url": "index.html"
   },
   {

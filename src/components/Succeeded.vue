@@ -2,18 +2,9 @@
   <div class="wrapper">
     <p class="score_wording">{{score.success}} / {{numberOfQuestions}}</p>
     <div class="slogan">
-      <span v-if="0 <= score.success && score.success <= 10">{{slogan.low}}</span>
-      <span v-if="10 < score.success && score.success <= 20">{{slogan.medium}}</span>
-      <span v-if="20 < score.success">{{slogan.high}}</span>
+      <span>{{slogan}}</span>
     </div>
     <md-button to="/" class="restart_btn">Restart</md-button>
-    <div class="failed_wrapper">
-      <span>還有</span>
-      <i :class="test.code"></i>
-      <span>
-        我是 <span class="keyword">{{test.name}} </span>啦
-      </span>
-    </div>
     <div class="social_links">
       <!-- Sharing Button Facebook -->
       <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fweichiachang.github.io%2Ftwicon-game%2F%23%2F" target="_blank" rel="noopener" aria-label="Facebook">
@@ -51,11 +42,7 @@ export default {
   },
   data () {
     return {
-      slogan: {
-        low: '已經是 .... 極限了嗎？',
-        medium: '兄 day 加油好嗎？',
-        high: '台灣還是很不錯的對吧'
-      }
+      slogan: '哇係正港歹丸郎啦！'
     }
   },
   computed: {

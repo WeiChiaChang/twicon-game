@@ -17,6 +17,7 @@ Vue.use(Vuex);
 function initialState () {
   return {
     flags,
+    numberOfQuestions: flags.length,
     score: {
       total: 0,
       failed: 0,

@@ -1,16 +1,16 @@
 <template>
   <md-table>
     <md-table-row>
-      <md-table-head md-numeric>累積題數</md-table-head>
-      <md-table-head md-numeric>正確題數</md-table-head>
-      <md-table-head md-numeric>錯誤題數</md-table-head>
-      <md-table-head md-numeric>答對率</md-table-head>
+      <md-table-head md-numeric>已連續答對</md-table-head>
+      <!-- <md-table-head md-numeric>正確題數</md-table-head> -->
+      <!-- <md-table-head md-numeric>錯誤題數</md-table-head> -->
+      <!-- <md-table-head md-numeric>答對率</md-table-head> -->
     </md-table-row>
     <md-table-row>
       <md-table-head md-numeric>{{score.total}}</md-table-head>
-      <md-table-head md-numeric>{{score.success}}</md-table-head>
-      <md-table-head md-numeric>{{score.failed}}</md-table-head>
-      <md-table-head md-numeric>{{ratio}}%</md-table-head>
+      <!-- <md-table-head md-numeric>{{score.success}}</md-table-head> -->
+      <!-- <md-table-head md-numeric>{{score.failed}}</md-table-head> -->
+      <!-- <md-table-head md-numeric>{{ratio}}%</md-table-head> -->
     </md-table-row>
   </md-table>
 </template>
@@ -45,13 +45,13 @@ export default {
   padding: 0;
 }
 .md-table-head-label {
-  height: 20px !important;
-  line-height: 20px !important;
+  height: 32px !important;
+  line-height: 32px !important;
   padding-left: 10px !important;
   padding-right: 10px !important;
 }
 .md-table-head {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-family: monospace;
 }
 .md-table-content {

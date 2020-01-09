@@ -19,9 +19,6 @@ export default {
 
   // Methods
   methods: {
-    // getFlagPath(iconName) {
-    //   return iconName ? require(`../assets/flags-normal/${iconName}.png`) : '';
-    // },
   },
 
   // Computed methods & state

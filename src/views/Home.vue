@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <img src="https://www.twicon.page/imgs/about_version.png" alt="TW Icon Game" />
+    <img src="https://upload.cc/i1/2020/01/09/dJejGS.png" alt="TW Icon Game" />
     <h1 class="md-display-6">The 100 icons of Taiwan</h1>
     <select-game-type />
   </div>

@@ -19,6 +19,7 @@ export default {
 
 <style lang="scss">
 .md-app {
+  font-family: "MicroSoft Jhenhei", "微軟正黑體", "Microsoft YaHei", sans-serif !important;
   height: 100vh;
   justify-content: center;
   align-items: center;

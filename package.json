@@ -14,6 +14,7 @@
     "serve": "^10.0.2",
     "uuid": "^3.3.2",
     "vue": "^2.5.17",
+    "vue-analytics": "^5.22.1",
     "vue-material": "^1.0.0-beta-10.2",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"

@@ -33,7 +33,7 @@ div {
   font-size: 1.2rem;
   background: #2ab6fb !important;
   border-radius: 5px;
-  color: white;
+  color: white !important;
   font-weight: bolder;
   cursor: pointer;
   padding: 0 16px;

@@ -39,4 +39,22 @@ export default {
     font-size: 12rem;
   }
 }
+
+
+// Basic Mobile Setting
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .content_wrapper {
+    i {
+      font-size: 9rem;
+    }
+  }
+}
+// For mobile (landscape)
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .content_wrapper {
+    i {
+      font-size: 9rem;
+    }
+  }
+}
 </style>

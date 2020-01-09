@@ -113,6 +113,19 @@ img {
   width: 300px;
 }
 
+// Basic Mobile Setting
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  img {
+    width: 15rem;
+  }
+}
+// For mobile (landscape)
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  img {
+    width: 15rem;
+  }
+}
+
 i {
   font-size: 4rem;
 }

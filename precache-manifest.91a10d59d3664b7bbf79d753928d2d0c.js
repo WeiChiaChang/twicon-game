@@ -1,34 +1,34 @@
 self.__precacheManifest = [
   {
-    "revision": "5c2457655d6c78afc24e",
+    "revision": "e562f931f87f9c689097",
     "url": "css/app.7cd1a668.css"
   },
   {
-    "revision": "5c2457655d6c78afc24e",
-    "url": "js/app.09195a57.js"
+    "revision": "e562f931f87f9c689097",
+    "url": "js/app.74b8a078.js"
   },
   {
-    "revision": "ac3fc66ea264a892e9e9",
+    "revision": "a893d67c05760191e043",
     "url": "css/chunk-vendors.04112af6.css"
   },
   {
-    "revision": "ac3fc66ea264a892e9e9",
-    "url": "js/chunk-vendors.728bb77c.js"
+    "revision": "a893d67c05760191e043",
+    "url": "js/chunk-vendors.0951c290.js"
   },
   {
-    "revision": "a15670c304affeb61b46",
-    "url": "css/game.37b3b2a9.css"
+    "revision": "c2d85866541272227075",
+    "url": "css/game.29efffae.css"
   },
   {
-    "revision": "a15670c304affeb61b46",
-    "url": "js/game.176382fb.js"
+    "revision": "c2d85866541272227075",
+    "url": "js/game.6cfbbbf5.js"
   },
   {
     "revision": "de3002f65fb439dd075fe5852d6d555b",
     "url": "img/kumamon.de3002f6.png"
   },
   {
-    "revision": "5f51534fd672e7e24b6ca1a483c462e0",
+    "revision": "fc51124b146c6b25645917b932704a39",
     "url": "index.html"
   },
   {
@@ -36,12 +36,12 @@ self.__precacheManifest = [
     "url": "browserconfig.xml"
   },
   {
-    "revision": "9f5f8e4cd36ac13901ae15dde763ae9c",
-    "url": "site.webmanifest"
-  },
-  {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
     "url": "robots.txt"
+  },
+  {
+    "revision": "9f5f8e4cd36ac13901ae15dde763ae9c",
+    "url": "site.webmanifest"
   },
   {
     "revision": "df224f54e21e6d07e8b6db8549042a38",

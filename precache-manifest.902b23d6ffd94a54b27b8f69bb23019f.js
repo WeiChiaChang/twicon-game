@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "img/kumamon.de3002f6.png"
   },
   {
-    "revision": "fc51124b146c6b25645917b932704a39",
+    "revision": "0d01a7a4b6f0b85c96f6c193f3f2b43a",
     "url": "index.html"
   },
   {

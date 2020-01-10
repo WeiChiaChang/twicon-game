@@ -1,20 +1,22 @@
 <template>
   <div>
     <transition mode="out-in">
-      <failed :test="test" v-if="score.failed > 0" />
+      <succeeded :test="test" v-if="score.success === numberOfQuestions" />
+      <failed :test="test" v-else-if="score.failed > 0" />
     </transition>
-    <score class="score-container" v-if="score.failed === 0" />
-    <flag class="flag-container" :code="currentFlag.code" v-if="score.failed === 0" />
-    <guessing-buttons
-      v-if="score.failed === 0"
-      class="buttons-container"
-      :flags="currentOptions"
-      :correct-flag="currentFlag"
-      :current-guess="currentGuess"
-      :just-guessed="justGuessed"
-      v-on:guess="guessFlag"
-      @click.native="failedIcon(currentFlag)"
-    />
+    <template v-if="score.success !== numberOfQuestions && score.failed === 0">
+      <score class="score-container" />
+      <flag class="flag-container" :code="currentFlag.code" />
+      <guessing-buttons
+        class="buttons-container"
+        :flags="currentOptions"
+        :correct-flag="currentFlag"
+        :current-guess="currentGuess"
+        :just-guessed="justGuessed"
+        v-on:guess="guessFlag"
+        @click.native="failedIcon(currentFlag)"
+      />
+    </template>
   </div>
 </template>
 
@@ -24,6 +26,7 @@ import Flag from '@/components/Flag.vue';
 import GuessingButtons from '@/components/GuessingButtons.vue';
 import Score from '@/components/Score.vue'
 import Failed from '@/components/Failed.vue';
+import Succeeded from '@/components/Succeeded.vue';
 
 export default {
   // Component name
@@ -50,6 +53,7 @@ export default {
     GuessingButtons,
     Score,
     Failed,
+    Succeeded,
   },
 
   // Methods
@@ -68,6 +72,7 @@ export default {
       justGuessed: ({ justGuessed }) => justGuessed,
       currentGuess: ({ currentGuess }) => currentGuess,
       score: ({ score }) => score,
+      numberOfQuestions: ({ numberOfQuestions }) => numberOfQuestions,
     }),
   },
 };

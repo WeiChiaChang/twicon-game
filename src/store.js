@@ -16,12 +16,14 @@ Vue.use(Vuex);
 
 function initialState () {
   return {
-    flags,
+    flags: [...flags],
+    numberOfQuestions: flags.length,
     score: {
       total: 0,
       failed: 0,
       success: 0,
     },
+    currentFlagIndex: -1,
     currentFlag: {},
     currentGameMode: '',
     currentOptions: [],
@@ -73,6 +75,7 @@ export default new Vuex.Store({
     },
     [GET_RANDOM_FLAG](state) {
       const randomFlagIndex = Math.floor(Math.random() * (state.flags.length - 1));
+      state.currentFlagIndex = randomFlagIndex;
       state.currentFlag = state.flags[randomFlagIndex];
       state.currentGuess = '';
       state.justGuessed = false;
@@ -83,8 +86,8 @@ export default new Vuex.Store({
 
       state.currentOptions.push(state.currentFlag);
       while (state.currentOptions.length < numberOfOptions) {
-        const randomFlagIndex = Math.floor(Math.random() * (state.flags.length - 1));
-        const randomFlag = state.flags[randomFlagIndex];
+        const randomFlagIndex = Math.floor(Math.random() * (flags.length - 1));
+        const randomFlag = flags[randomFlagIndex];
         if( !find(state.currentOptions, {code: randomFlag.code}) ) {
           state.currentOptions.push(randomFlag);
         }
@@ -103,6 +106,9 @@ export default new Vuex.Store({
       // Set flags
       state.currentGuess = code;
       state.justGuessed = true;
+      
+      // Remove flag
+      state.flags.splice(state.currentFlagIndex, 1);
     },
     [SET_GAME_MODE](state, mode) {
       // Increase total

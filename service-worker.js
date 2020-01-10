@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.902b23d6ffd94a54b27b8f69bb23019f.js"
+  "precache-manifest.055ed10418185386965e6d4ae8cdac43.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "twicon-quiz"});

@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e562f931f87f9c689097",
-    "url": "css/app.7cd1a668.css"
+    "revision": "88ccc68221ca1cacecc0",
+    "url": "css/app.5325e519.css"
   },
   {
-    "revision": "e562f931f87f9c689097",
-    "url": "js/app.74b8a078.js"
+    "revision": "88ccc68221ca1cacecc0",
+    "url": "js/app.a48be233.js"
   },
   {
     "revision": "a893d67c05760191e043",
@@ -28,16 +28,20 @@ self.__precacheManifest = [
     "url": "img/kumamon.de3002f6.png"
   },
   {
-    "revision": "0d01a7a4b6f0b85c96f6c193f3f2b43a",
+    "revision": "61c76c88e3e624d63c8dbaa19b63eed3",
+    "url": "fonts/twicon.61c76c88.woff"
+  },
+  {
+    "revision": "a657075b7392dbaf998c6c13121777bb",
+    "url": "fonts/twicon.a657075b.woff2"
+  },
+  {
+    "revision": "836ffc978bd4da2a65bc1229652760db",
     "url": "index.html"
   },
   {
     "revision": "47567df77cb0c34606bf4c855cba68cb",
     "url": "browserconfig.xml"
-  },
-  {
-    "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
-    "url": "robots.txt"
   },
   {
     "revision": "9f5f8e4cd36ac13901ae15dde763ae9c",
@@ -46,5 +50,9 @@ self.__precacheManifest = [
   {
     "revision": "df224f54e21e6d07e8b6db8549042a38",
     "url": "twicon.css"
+  },
+  {
+    "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
+    "url": "robots.txt"
   }
 ];

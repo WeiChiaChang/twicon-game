@@ -17,6 +17,8 @@ import 'vue-material/dist/theme/black-green-light.css'
 
 import VueAnalytics from 'vue-analytics'
 
+import './css/main.css'
+
 Vue.use(VueAnalytics, {
   id: 'UA-155859177-1',
   router,

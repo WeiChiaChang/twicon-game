@@ -5,7 +5,7 @@
 
 [快來玩玩吧！](https://git.io/JvvfT)
 
-![TW Icon Fonts Game](https://upload.cc/i1/2020/01/08/0cUoMq.png)
+![TW Icon Fonts Game](https://upload.cc/i1/2020/01/14/xaK2hX.png)
 
 
 ## Reference

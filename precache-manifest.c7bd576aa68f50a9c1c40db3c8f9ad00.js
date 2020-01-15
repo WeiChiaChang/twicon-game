@@ -28,20 +28,24 @@ self.__precacheManifest = [
     "url": "img/kumamon.de3002f6.png"
   },
   {
-    "revision": "61c76c88e3e624d63c8dbaa19b63eed3",
-    "url": "fonts/twicon.61c76c88.woff"
-  },
-  {
     "revision": "a657075b7392dbaf998c6c13121777bb",
     "url": "fonts/twicon.a657075b.woff2"
   },
   {
-    "revision": "836ffc978bd4da2a65bc1229652760db",
+    "revision": "61c76c88e3e624d63c8dbaa19b63eed3",
+    "url": "fonts/twicon.61c76c88.woff"
+  },
+  {
+    "revision": "a4bd4fc692971ada72b62c33eaf3830c",
     "url": "index.html"
   },
   {
     "revision": "47567df77cb0c34606bf4c855cba68cb",
     "url": "browserconfig.xml"
+  },
+  {
+    "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
+    "url": "robots.txt"
   },
   {
     "revision": "9f5f8e4cd36ac13901ae15dde763ae9c",
@@ -50,9 +54,5 @@ self.__precacheManifest = [
   {
     "revision": "df224f54e21e6d07e8b6db8549042a38",
     "url": "twicon.css"
-  },
-  {
-    "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
-    "url": "robots.txt"
   }
 ];

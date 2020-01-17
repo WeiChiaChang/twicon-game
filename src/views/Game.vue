@@ -6,7 +6,10 @@
     </transition>
     <template v-if="score.success !== numberOfQuestions && score.failed === 0">
       <score class="score-container" />
-      <flag class="flag-container" :code="currentFlag.code" />
+      <flag
+        class="flag-container"
+        :code="currentFlag"
+      />
       <guessing-buttons
         class="buttons-container"
         :flags="currentOptions"

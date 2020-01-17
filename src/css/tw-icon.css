@@ -14,6 +14,7 @@
 }
 
 [class*=" twicon-"],
+[class*="_tw_"],
 [class^="twicon-"] {
   font-family: twicon !important;
   speak: none;
@@ -29,306 +30,408 @@
   -webkit-font-smoothing: antialiased;
 }
 
-.twicon-td-flag:before {
+/* Obfuscated class name */
+._tw_2085845844:before {
   content: "\a000";
 }
-.twicon-roc-flag:before {
+
+._tw_2085879669:before {
   content: "\a001";
 }
-.twicon-main-island:before {
+
+._tw_2085917590:before {
   content: "\a002";
 }
-.twicon-penghu-islands:before {
+
+._tw_2085951415:before {
   content: "\a003";
 }
-.twicon-kinmen-island:before {
+
+._tw_2085702096:before {
   content: "\a004";
 }
-.twicon-green-island:before {
+
+._tw_2085735921:before {
   content: "\a005";
 }
-.twicon-lamay-island:before {
+
+._tw_2085773842:before {
   content: "\a006";
 }
-.twicon-gueishan-island:before {
+
+._tw_2085807667:before {
   content: "\a007";
 }
-.twicon-orchid-island:before {
+
+._tw_2086133340:before {
   content: "\a008";
 }
-.twicon-grave-sense:before {
+
+._tw_2086167165:before {
   content: "\a009";
 }
-.twicon-cks-hall:before {
+
+._tw_2087638309:before {
   content: "\a00a";
 }
-.twicon-gate-cks:before {
+
+._tw_2087676486:before {
   content: "\a00b";
 }
-.twicon-president-office:before {
+
+._tw_2087710311:before {
   content: "\a00c";
 }
-.twicon-taipei101:before {
+
+._tw_2087460736:before {
   content: "\a00d";
 }
-.twicon-np-mus:before {
+
+._tw_2087494561:before {
   content: "\a00e";
 }
-.twicon-shrine-tp:before {
+
+._tw_2087532738:before {
   content: "\a00f";
 }
-.twicon-longshan-tmp:before {
+
+._tw_2085846869:before {
   content: "\a010";
 }
-.twicon-sys-hall:before {
+
+._tw_2085882868:before {
   content: "\a011";
 }
-.twicon-confucius-tmp:before {
+
+._tw_2085918615:before {
   content: "\a012";
 }
-.twicon-xingtian-tmp:before {
+
+._tw_2085954614:before {
   content: "\a013";
 }
-.twicon-nt-mus:before {
+
+._tw_2085703121:before {
   content: "\a014";
 }
-.twicon-grand-hotel:before {
+
+._tw_2085739120:before {
   content: "\a015";
 }
-.twicon-228-park:before {
+
+._tw_2085774867:before {
   content: "\a016";
 }
-.twicon-san-domingo:before {
+
+._tw_2085810866:before {
   content: "\a017";
 }
-.twicon-raohe-nm:before {
+
+._tw_2086134365:before {
   content: "\a018";
 }
-.twicon-red-house:before {
+
+._tw_2086170364:before {
   content: "\a019";
 }
-.twicon-beimen:before {
+
+._tw_2087641508:before {
   content: "\a01a";
 }
-.twicon-xiaonanmen:before {
+
+._tw_2087677511:before {
   content: "\a01b";
 }
-.twicon-taipei-stn:before {
+
+._tw_2087713510:before {
   content: "\a01c";
 }
-.twicon-zeelandia:before {
+
+._tw_2087461761:before {
   content: "\a01d";
 }
-.twicon-eg-castle:before {
+
+._tw_2087497760:before {
   content: "\a01e";
 }
-.twicon-provintia:before {
+
+._tw_2087533763:before {
   content: "\a01f";
 }
-.twicon-hy-statue:before {
+
+._tw_2085848022:before {
   content: "\a020";
 }
-.twicon-85tower:before {
+
+._tw_2085881847:before {
   content: "\a021";
 }
-.twicon-fb-stn:before {
+
+._tw_2085915412:before {
   content: "\a022";
 }
-.twicon-dt-pagoda:before {
+
+._tw_2085949237:before {
   content: "\a023";
 }
-.twicon-rosary-church:before {
+
+._tw_2085704274:before {
   content: "\a024";
 }
-.twicon-longteng-brg:before {
+
+._tw_2085738099:before {
   content: "\a025";
 }
-.twicon-ly-mus:before {
+
+._tw_2085771664:before {
   content: "\a026";
 }
-.twicon-lovers-brg:before {
+
+._tw_2085805489:before {
   content: "\a027";
 }
-.twicon-hotspring-mus:before {
+
+._tw_2086135518:before {
   content: "\a028";
 }
-.twicon-tunghai-uni:before {
+
+._tw_2086169343:before {
   content: "\a029";
 }
-.twicon-taichung-park:before {
+
+._tw_2087640487:before {
   content: "\a02a";
 }
-.twicon-queens-head:before {
+
+._tw_2087674308:before {
   content: "\a02b";
 }
-.twicon-ntc-theater:before {
+
+._tw_2087708133:before {
   content: "\a02c";
 }
-.twicon-bagua:before {
+
+._tw_2087462914:before {
   content: "\a02d";
 }
-.twicon-foguangshan:before {
+
+._tw_2087496739:before {
   content: "\a02e";
 }
-.twicon-vase-rock:before {
+
+._tw_2087530560:before {
   content: "\a02f";
 }
-.twicon-tropic-cancer:before {
+
+._tw_2085849047:before {
   content: "\a030";
 }
-.twicon-fuguijiao-lh:before {
+
+._tw_2085885046:before {
   content: "\a031";
 }
-.twicon-yuweng-lh:before {
+
+._tw_2085916437:before {
   content: "\a032";
 }
-.twicon-eluanbi-lh:before {
+
+._tw_2085952436:before {
   content: "\a033";
 }
-.twicon-kano-staue:before {
+
+._tw_2085705299:before {
   content: "\a034";
 }
-.twicon-ershawan:before {
+
+._tw_2085741298:before {
   content: "\a035";
 }
-.twicon-dahu-park:before {
+
+._tw_2085772689:before {
   content: "\a036";
 }
-.twicon-balloon:before {
+
+._tw_2085808688:before {
   content: "\a037";
 }
-.twicon-taiwan-rw:before {
+
+._tw_2086136543:before {
   content: "\a038";
 }
-.twicon-taipei-mrt:before {
+
+._tw_2086172542:before {
   content: "\a039";
 }
-.twicon-alishan-rw:before {
+
+._tw_2087643686:before {
   content: "\a03a";
 }
-.twicon-high-speed-rail:before {
+
+._tw_2087675333:before {
   content: "\a03b";
 }
-.twicon-gondola:before {
+
+._tw_2087711332:before {
   content: "\a03c";
 }
-.twicon-youbike:before {
+
+._tw_2087463939:before {
   content: "\a03d";
 }
-.twicon-yami-boat:before {
+
+._tw_2087499938:before {
   content: "\a03e";
 }
-.twicon-dragon-boat:before {
+
+._tw_2087531585:before {
   content: "\a03f";
 }
-.twicon-lantern1:before {
+
+._tw_2085841488:before {
   content: "\a040";
 }
-.twicon-lantern2:before {
+
+._tw_2085875313:before {
   content: "\a041";
 }
-.twicon-sky-lantern:before {
+
+._tw_2085913234:before {
   content: "\a042";
 }
-.twicon-taiwanese-bag:before {
+
+._tw_2085947059:before {
   content: "\a043";
 }
-.twicon-postbox1:before {
+
+._tw_2085706452:before {
   content: "\a044";
 }
-.twicon-postbox2:before {
+
+._tw_2085740277:before {
   content: "\a045";
 }
-.twicon-jug:before {
+
+._tw_2085778198:before {
   content: "\a046";
 }
-.twicon-tea-pot:before {
+
+._tw_2085812023:before {
   content: "\a047";
 }
-.twicon-tapioca:before {
+
+._tw_2086128984:before {
   content: "\a048";
 }
-.twicon-beer:before {
+
+._tw_2086162809:before {
   content: "\a049";
 }
-.twicon-apple-cider:before {
+
+._tw_2087633953:before {
   content: "\a04a";
 }
-.twicon-couplets:before {
+
+._tw_2087672130:before {
   content: "\a04b";
 }
-.twicon-fortune:before {
+
+._tw_2087705955:before {
   content: "\a04c";
 }
-.twicon-electric-pot:before {
+
+._tw_2087465092:before {
   content: "\a04d";
 }
-.twicon-slipper:before {
+
+._tw_2087498917:before {
   content: "\a04e";
 }
-.twicon-flying-fish:before {
+
+._tw_2087537094:before {
   content: "\a04f";
 }
-.twicon-black-bear:before {
+
+._tw_2085842513:before {
   content: "\a050";
 }
-.twicon-trash:before {
+
+._tw_2085914259:before {
   content: "\a052";
 }
-.twicon-recycling:before {
+
+._tw_2085878512:before {
   content: "\a051";
 }
-.twicon-queue-box:before {
+
+._tw_2085950258:before {
   content: "\a053";
 }
-.twicon-bicycle-lane:before {
+
+._tw_2085707477:before {
   content: "\a054";
 }
-.twicon-red-man:before {
+
+._tw_2085743476:before {
   content: "\a055";
 }
-.twicon-green-man:before {
+
+._tw_2085779223:before {
   content: "\a056";
 }
-.twicon-l-nh-insurance:before {
+
+._tw_2085815222:before {
   content: "\a057";
 }
-.twicon-l-pixnet:before {
+
+._tw_2086130009:before {
   content: "\a058";
 }
-.twicon-l-17live:before {
+
+._tw_2086166008:before {
   content: "\a059";
 }
-.twicon-l-wemo:before {
+
+._tw_2087637152:before {
   content: "\a05a";
 }
-.twicon-l-dcard:before {
+
+._tw_2087673155:before {
   content: "\a05b";
 }
-.twicon-l-easy-card:before {
+
+._tw_2087709154:before {
   content: "\a05c";
 }
-.twicon-l-ipass:before {
+
+._tw_2087466117:before {
   content: "\a05d";
 }
-.twicon-l-youbike:before {
+
+._tw_2087502116:before {
   content: "\a05e";
 }
-.twicon-l-luxgen:before {
+
+._tw_2087538119:before {
   content: "\a05f";
 }
-.twicon-l-post:before {
+
+._tw_2085843666:before {
   content: "\a060";
 }
-.twicon-l-taiwan-rw:before {
+
+._tw_2085877491:before {
   content: "\a061";
 }
-.twicon-l-taipei-mrt:before {
+
+._tw_2085911056:before {
   content: "\a062";
 }
-.twicon-l-kaoxiong-mrt:before {
+
+._tw_2085944881:before {
   content: "\a063";
 }
+/* End of Obfuscated class name */
+
 .twicon-xs {
   font-size: 0.5em;
 }

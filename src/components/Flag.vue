@@ -1,32 +1,27 @@
 <template>
   <div class="content_wrapper">
-    <i :class="code"></i>
+    <i :class="code.obs_code"></i>
   </div>
 </template>
 
 <script>
-// State utils
-import { mapState } from 'vuex';
+import { mapState } from 'vuex'
 
 export default {
-  // Component name
   name: 'Flag',
-
-  // Imported components
   props: {
-    code: String,
+    code: Object,
+    default () {
+      return {}
+    }
   },
-
-  // Methods
   methods: {
   },
-
-  // Computed methods & state
   computed: {
     ...mapState({
       flags: ({ flags }) => flags,
-    }),
-  },
+    })
+  }
 };
 </script>
 

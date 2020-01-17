@@ -9,7 +9,7 @@
     <md-button to="/" class="restart_btn">Restart</md-button>
     <div class="failed_wrapper">
       <span>還有</span>
-      <i :class="test.code"></i>
+      <i :class="test.obs_code"></i>
       <span>
         我是 <span class="keyword">{{test.name}} </span>啦
       </span>

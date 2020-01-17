@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "5eafa03356c2031fd624",
+    "revision": "107b119cc292f9620a68",
     "url": "css/app.bef21c2a.css"
   },
   {
-    "revision": "5eafa03356c2031fd624",
-    "url": "js/app.ee93848f.js"
+    "revision": "107b119cc292f9620a68",
+    "url": "js/app.d9069e52.js"
   },
   {
     "revision": "a893d67c05760191e043",
@@ -16,27 +16,27 @@ self.__precacheManifest = [
     "url": "js/chunk-vendors.0951c290.js"
   },
   {
-    "revision": "9db9d931abd3c0a4202e",
-    "url": "css/game.4dff93f7.css"
+    "revision": "92925636832ce2603e9b",
+    "url": "css/game.d484e824.css"
   },
   {
-    "revision": "9db9d931abd3c0a4202e",
-    "url": "js/game.65d29567.js"
+    "revision": "92925636832ce2603e9b",
+    "url": "js/game.d25945bb.js"
   },
   {
     "revision": "de3002f65fb439dd075fe5852d6d555b",
     "url": "img/kumamon.de3002f6.png"
   },
   {
-    "revision": "61c76c88e3e624d63c8dbaa19b63eed3",
-    "url": "fonts/twicon.61c76c88.woff"
-  },
-  {
     "revision": "a657075b7392dbaf998c6c13121777bb",
     "url": "fonts/twicon.a657075b.woff2"
   },
   {
-    "revision": "06767ae277d2b44c7383d9cb655e150a",
+    "revision": "61c76c88e3e624d63c8dbaa19b63eed3",
+    "url": "fonts/twicon.61c76c88.woff"
+  },
+  {
+    "revision": "9497cf4b2fdf7b07a85e747bc4068beb",
     "url": "index.html"
   },
   {

@@ -99,7 +99,7 @@ export default {
   text-align: center;
   height: 50px;
   border-radius: 5px;
-  margin-bottom: .2rem;
+  margin-bottom: .3rem;
 }
 
 .social_links {

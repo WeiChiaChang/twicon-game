@@ -1,25 +1,18 @@
 <template>
   <div>
-    <transition mode="out-in">
-      <succeeded :test="test" v-if="score.success === numberOfQuestions" />
-      <failed :test="test" v-else-if="score.failed > 0" />
-    </transition>
-    <template v-if="score.success !== numberOfQuestions && score.failed === 0">
-      <score class="score-container" />
-      <flag
-        class="flag-container"
-        :code="currentFlag"
-      />
-      <guessing-buttons
-        class="buttons-container"
-        :flags="currentOptions"
-        :correct-flag="currentFlag"
-        :current-guess="currentGuess"
-        :just-guessed="justGuessed"
-        v-on:guess="guessFlag"
-        @click.native="failedIcon(currentFlag)"
-      />
-    </template>
+    <score-ratio class="score-container" />
+    <flag
+      class="flag-container"
+      :code="currentFlag"
+    />
+    <guessing-buttons
+      class="buttons-container"
+      :flags="currentOptions"
+      :correct-flag="currentFlag"
+      :current-guess="currentGuess"
+      :just-guessed="justGuessed"
+      v-on:guess="guessFlag"
+    />
   </div>
 </template>
 
@@ -31,9 +24,11 @@ import Score from '@/components/Score.vue'
 import Failed from '@/components/Failed.vue';
 import Succeeded from '@/components/Succeeded.vue';
 
+import ScoreRatio from '@/components/ScoreRatio.vue';
+
 export default {
   // Component name
-  name: 'GameChallenge',
+  name: 'GamePractice',
 
   data () {
     return {
@@ -43,7 +38,7 @@ export default {
 
   mounted() {
     // Set the game mode
-    this.setGameMode('challenge');
+    this.setGameMode('practice');
     // Get a random flag
     this.getRandomFlag();
     // Get options
@@ -54,7 +49,7 @@ export default {
   components: {
     Flag,
     GuessingButtons,
-    Score,
+    ScoreRatio,
     Failed,
     Succeeded,
   },

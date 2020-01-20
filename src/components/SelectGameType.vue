@@ -1,6 +1,15 @@
 <template>
   <div>
-    <md-button @click.native="restart()" to="/game" class="wording md-raised md-accent">來個小測驗吧！</md-button>
+    <md-button
+      @click.native="restart()"
+      to="/game"
+      class="wording md-raised md-accent"
+    >挑戰模式</md-button>
+    <md-button
+      @click.native="restart()"
+      to="/practice"
+      class="wording md-raised md-accent"
+    >新手練習</md-button>
   </div>
 </template>
 
@@ -15,7 +24,7 @@ export default {
     restart () {
       this.setScoreInitial();
       // Set the game mode
-      this.setGameMode('infinite');
+      this.setGameMode('challenge');
       // Get a random flag
       this.getRandomFlag();
       // Get options

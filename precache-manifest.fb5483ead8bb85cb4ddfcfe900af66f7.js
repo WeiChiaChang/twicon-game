@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "107b119cc292f9620a68",
-    "url": "css/app.bef21c2a.css"
+    "revision": "17963462ca7057ead244",
+    "url": "css/app.03d8a84d.css"
   },
   {
-    "revision": "107b119cc292f9620a68",
-    "url": "js/app.d9069e52.js"
+    "revision": "17963462ca7057ead244",
+    "url": "js/app.4876684b.js"
   },
   {
     "revision": "a893d67c05760191e043",
@@ -16,12 +16,28 @@ self.__precacheManifest = [
     "url": "js/chunk-vendors.0951c290.js"
   },
   {
-    "revision": "92925636832ce2603e9b",
-    "url": "css/game.d484e824.css"
+    "revision": "3a96389a271b4994eefe",
+    "url": "css/game.5abe1ef9.css"
   },
   {
-    "revision": "92925636832ce2603e9b",
-    "url": "js/game.d25945bb.js"
+    "revision": "3a96389a271b4994eefe",
+    "url": "js/game.456e126e.js"
+  },
+  {
+    "revision": "3f0ce24b6cfd0c5ae1fa",
+    "url": "css/game~practice.63936c73.css"
+  },
+  {
+    "revision": "3f0ce24b6cfd0c5ae1fa",
+    "url": "js/game~practice.dd175383.js"
+  },
+  {
+    "revision": "c073d36485c510f2ef22",
+    "url": "css/practice.f82ce99b.css"
+  },
+  {
+    "revision": "c073d36485c510f2ef22",
+    "url": "js/practice.5b87ad5d.js"
   },
   {
     "revision": "de3002f65fb439dd075fe5852d6d555b",
@@ -36,7 +52,7 @@ self.__precacheManifest = [
     "url": "fonts/twicon.61c76c88.woff"
   },
   {
-    "revision": "9497cf4b2fdf7b07a85e747bc4068beb",
+    "revision": "e83b0aa4f4e34ba10930b492bb8a1b07",
     "url": "index.html"
   },
   {
